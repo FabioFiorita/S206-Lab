@@ -11,3 +11,14 @@ Utilizando yarn:
 ```bash
 yarn run cypress open
 ```
+
+## Como executar os testes do cypress com gerador de relatório
+Utilizando npx:
+```bash
+npx cypress
+```
+
+Utilizando yarn:
+```bash
+yarn run cypress
+```
