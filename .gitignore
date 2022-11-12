@@ -112,3 +112,9 @@ cypress.config.js
 videos/
 downloads/
 reports/
+
+# Vscode files
+.vscode/
+
+# Maven files
+target/
