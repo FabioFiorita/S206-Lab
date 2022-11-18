@@ -118,3 +118,6 @@ reports/
 
 # Maven files
 target/
+
+# IntelliJ files
+.idea/
