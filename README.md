@@ -22,3 +22,21 @@ Utilizando yarn:
 ```bash
 yarn run cypress
 ```
+
+## Como executar os testes do Karate com gerador de relatório
+Executar um teste a partir do Runner ou suíte:
+```bash
+mvn test –Dtest=StarWarsRunner
+```
+
+Executar testes separados por tags:
+```bash
+mvn test -Dkarate.options="--tags @tag”
+```
+
+Para ignorar alguma tag:
+```bash
+mvn test -Dkarate.options="--tags ~@tag" 
+```
+
+Todas as tags podem ser configuradas na classe da suíte de testes.
