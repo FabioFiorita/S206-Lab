@@ -20,7 +20,7 @@ npx cypress
 
 Utilizando yarn:
 ```bash
-yarn run cypress
+yarn cypress run
 ```
 
 ## Como executar os testes do Karate com gerador de relatório
