@@ -108,7 +108,6 @@ dist
 .DS_Store
 
 # Cypress Files
-cypress.config.js
 videos/
 downloads/
 reports/
